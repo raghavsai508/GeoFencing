@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		6763CF3C1BBC5C6100266FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763CF3B1BBC5C6100266FE9 /* main.m */; };
 		6763CF3F1BBC5C6100266FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763CF3E1BBC5C6100266FE9 /* AppDelegate.m */; };
-		6763CF421BBC5C6100266FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763CF411BBC5C6100266FE9 /* ViewController.m */; };
+		6763CF421BBC5C6100266FE9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763CF411BBC5C6100266FE9 /* MapViewController.m */; };
 		6763CF451BBC5C6100266FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6763CF431BBC5C6100266FE9 /* Main.storyboard */; };
 		6763CF471BBC5C6100266FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6763CF461BBC5C6100266FE9 /* Assets.xcassets */; };
 		6763CF4A1BBC5C6100266FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6763CF481BBC5C6100266FE9 /* LaunchScreen.storyboard */; };
 		6763CF551BBC5C6100266FE9 /* GeoFencingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763CF541BBC5C6100266FE9 /* GeoFencingTests.m */; };
 		6763CF601BBC5C6100266FE9 /* GeoFencingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763CF5F1BBC5C6100266FE9 /* GeoFencingUITests.m */; };
+		678BD12C1BC5CF910084057A /* GeoContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 678BD12B1BC5CF910084057A /* GeoContainer.m */; settings = {ASSET_TAGS = (); }; };
+		678BD12F1BC5EC440084057A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678BD12E1BC5EC440084057A /* CoreData.framework */; };
+		678BD1321BC5EC5C0084057A /* GeoFence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 678BD1301BC5EC5C0084057A /* GeoFence.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		678BD1351BC5EEDE0084057A /* GeoCoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 678BD1341BC5EEDE0084057A /* GeoCoreDataModel.m */; settings = {ASSET_TAGS = (); }; };
+		67E97A631BC08AB60023046B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E97A621BC08AB60023046B /* MapKit.framework */; };
+		67E97A671BC09B630023046B /* GeoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E97A661BC09B630023046B /* GeoListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		67E97A691BC0A6B20023046B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E97A681BC0A6B20023046B /* CoreLocation.framework */; };
+		67E97A6B1BC1EFA10023046B /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 67E97A6A1BC1EFA10023046B /* TestLocations.gpx */; settings = {ASSET_TAGS = (); }; };
+		67E97A881BC21AF90023046B /* GeofenceEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E97A871BC21AF90023046B /* GeofenceEditViewController.m */; settings = {ASSET_TAGS = (); }; };
+		67E97A8C1BC22B550023046B /* GeoTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E97A8B1BC22B550023046B /* GeoTag.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,8 @@
 		6763CF3B1BBC5C6100266FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6763CF3D1BBC5C6100266FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6763CF3E1BBC5C6100266FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6763CF401BBC5C6100266FE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6763CF411BBC5C6100266FE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6763CF401BBC5C6100266FE9 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6763CF411BBC5C6100266FE9 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6763CF441BBC5C6100266FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6763CF461BBC5C6100266FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6763CF491BBC5C6100266FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,21 @@
 		6763CF5B1BBC5C6100266FE9 /* GeoFencingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFencingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6763CF5F1BBC5C6100266FE9 /* GeoFencingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoFencingUITests.m; sourceTree = "<group>"; };
 		6763CF611BBC5C6100266FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678BD12A1BC5CF910084057A /* GeoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoContainer.h; sourceTree = "<group>"; };
+		678BD12B1BC5CF910084057A /* GeoContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoContainer.m; sourceTree = "<group>"; };
+		678BD12E1BC5EC440084057A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		678BD1311BC5EC5C0084057A /* GeoFence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoFence.xcdatamodel; sourceTree = "<group>"; };
+		678BD1331BC5EEDE0084057A /* GeoCoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCoreDataModel.h; sourceTree = "<group>"; };
+		678BD1341BC5EEDE0084057A /* GeoCoreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCoreDataModel.m; sourceTree = "<group>"; };
+		67E97A621BC08AB60023046B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67E97A651BC09B630023046B /* GeoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoListViewController.h; sourceTree = "<group>"; };
+		67E97A661BC09B630023046B /* GeoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoListViewController.m; sourceTree = "<group>"; };
+		67E97A681BC0A6B20023046B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67E97A6A1BC1EFA10023046B /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
+		67E97A861BC21AF90023046B /* GeofenceEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofenceEditViewController.h; sourceTree = "<group>"; };
+		67E97A871BC21AF90023046B /* GeofenceEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceEditViewController.m; sourceTree = "<group>"; };
+		67E97A8A1BC22B550023046B /* GeoTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoTag.h; sourceTree = "<group>"; };
+		67E97A8B1BC22B550023046B /* GeoTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoTag.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678BD12F1BC5EC440084057A /* CoreData.framework in Frameworks */,
+				67E97A691BC0A6B20023046B /* CoreLocation.framework in Frameworks */,
+				67E97A631BC08AB60023046B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,9 @@
 		6763CF2E1BBC5C6000266FE9 = {
 			isa = PBXGroup;
 			children = (
+				678BD12E1BC5EC440084057A /* CoreData.framework */,
+				67E97A681BC0A6B20023046B /* CoreLocation.framework */,
+				67E97A621BC08AB60023046B /* MapKit.framework */,
 				6763CF391BBC5C6100266FE9 /* GeoFencing */,
 				6763CF531BBC5C6100266FE9 /* GeoFencingTests */,
 				6763CF5E1BBC5C6100266FE9 /* GeoFencingUITests */,
@@ -101,15 +132,20 @@
 		6763CF391BBC5C6100266FE9 /* GeoFencing */ = {
 			isa = PBXGroup;
 			children = (
+				678BD12D1BC5CFFE0084057A /* DataManager */,
+				67E97A891BC22B2F0023046B /* Model */,
+				67E97A851BC21AA90023046B /* GeofenceControl */,
+				67E97A641BC09B3C0023046B /* GeoFencingListView */,
 				6763CF3D1BBC5C6100266FE9 /* AppDelegate.h */,
 				6763CF3E1BBC5C6100266FE9 /* AppDelegate.m */,
-				6763CF401BBC5C6100266FE9 /* ViewController.h */,
-				6763CF411BBC5C6100266FE9 /* ViewController.m */,
+				6763CF401BBC5C6100266FE9 /* MapViewController.h */,
+				6763CF411BBC5C6100266FE9 /* MapViewController.m */,
 				6763CF431BBC5C6100266FE9 /* Main.storyboard */,
 				6763CF461BBC5C6100266FE9 /* Assets.xcassets */,
 				6763CF481BBC5C6100266FE9 /* LaunchScreen.storyboard */,
 				6763CF4B1BBC5C6100266FE9 /* Info.plist */,
 				6763CF3A1BBC5C6100266FE9 /* Supporting Files */,
+				678BD1301BC5EC5C0084057A /* GeoFence.xcdatamodeld */,
 			);
 			path = GeoFencing;
 			sourceTree = "<group>";
@@ -117,6 +153,7 @@
 		6763CF3A1BBC5C6100266FE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				67E97A6A1BC1EFA10023046B /* TestLocations.gpx */,
 				6763CF3B1BBC5C6100266FE9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +175,44 @@
 				6763CF611BBC5C6100266FE9 /* Info.plist */,
 			);
 			path = GeoFencingUITests;
+			sourceTree = "<group>";
+		};
+		678BD12D1BC5CFFE0084057A /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		67E97A641BC09B3C0023046B /* GeoFencingListView */ = {
+			isa = PBXGroup;
+			children = (
+				67E97A651BC09B630023046B /* GeoListViewController.h */,
+				67E97A661BC09B630023046B /* GeoListViewController.m */,
+			);
+			path = GeoFencingListView;
+			sourceTree = "<group>";
+		};
+		67E97A851BC21AA90023046B /* GeofenceControl */ = {
+			isa = PBXGroup;
+			children = (
+				67E97A861BC21AF90023046B /* GeofenceEditViewController.h */,
+				67E97A871BC21AF90023046B /* GeofenceEditViewController.m */,
+			);
+			path = GeofenceControl;
+			sourceTree = "<group>";
+		};
+		67E97A891BC22B2F0023046B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67E97A8A1BC22B550023046B /* GeoTag.h */,
+				67E97A8B1BC22B550023046B /* GeoTag.m */,
+				678BD12A1BC5CF910084057A /* GeoContainer.h */,
+				678BD12B1BC5CF910084057A /* GeoContainer.m */,
+				678BD1331BC5EEDE0084057A /* GeoCoreDataModel.h */,
+				678BD1341BC5EEDE0084057A /* GeoCoreDataModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +320,7 @@
 			files = (
 				6763CF4A1BBC5C6100266FE9 /* LaunchScreen.storyboard in Resources */,
 				6763CF471BBC5C6100266FE9 /* Assets.xcassets in Resources */,
+				67E97A6B1BC1EFA10023046B /* TestLocations.gpx in Resources */,
 				6763CF451BBC5C6100266FE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +346,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6763CF421BBC5C6100266FE9 /* ViewController.m in Sources */,
+				67E97A671BC09B630023046B /* GeoListViewController.m in Sources */,
+				6763CF421BBC5C6100266FE9 /* MapViewController.m in Sources */,
+				67E97A8C1BC22B550023046B /* GeoTag.m in Sources */,
+				678BD1321BC5EC5C0084057A /* GeoFence.xcdatamodeld in Sources */,
 				6763CF3F1BBC5C6100266FE9 /* AppDelegate.m in Sources */,
+				678BD1351BC5EEDE0084057A /* GeoCoreDataModel.m in Sources */,
+				67E97A881BC21AF90023046B /* GeofenceEditViewController.m in Sources */,
+				678BD12C1BC5CF910084057A /* GeoContainer.m in Sources */,
 				6763CF3C1BBC5C6100266FE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoFencing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jobless-creations.GeoFencing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoFencing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jobless-creations.GeoFencing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +580,7 @@
 				6763CF661BBC5C6100266FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6763CF671BBC5C6100266FE9 /* Build configuration list for PBXNativeTarget "GeoFencingTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +589,7 @@
 				6763CF691BBC5C6100266FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6763CF6A1BBC5C6100266FE9 /* Build configuration list for PBXNativeTarget "GeoFencingUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,8 +598,22 @@
 				6763CF6C1BBC5C6100266FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		678BD1301BC5EC5C0084057A /* GeoFence.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				678BD1311BC5EC5C0084057A /* GeoFence.xcdatamodel */,
+			);
+			currentVersion = 678BD1311BC5EC5C0084057A /* GeoFence.xcdatamodel */;
+			path = GeoFence.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6763CF2F1BBC5C6000266FE9 /* Project object */;
 }
